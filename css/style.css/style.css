@@ -6,7 +6,6 @@
   text-decoration: none;
 }
 .logo-black {
-  font-weight: 400;
   line-height: 0.72;
   letter-spacing: 0.03em;
   color: black;
@@ -72,7 +71,6 @@ a:hover {
   color: #212121;
 }
 .section-txt {
-  font-weight: 400;
   line-height: 0.58;
   letter-spacing: 0.03em;
   color: #757575;
@@ -96,13 +94,11 @@ a:hover {
   color: #212121;
 }
 .foot-addres {
-  font-weight: 400;
   line-height: 0.58;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
 .foot-addres a {
-  font-weight: 400;
   line-height: 0.58;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
@@ -132,7 +128,6 @@ a:hover {
   color: #212121;
 }
 .sec-fig {
-  font-weight: 400;
   line-height: 0.53;
   letter-spacing: 0.03em;
   color: #757575;
