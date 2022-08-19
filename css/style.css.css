@@ -1,0 +1,138 @@
+:root {
+  --fullwhite: #fff;
+  --babyblue: #2196f3;
+  --fullblack: #000000;
+  --grey: #757575;
+  --slightlyblack: #212121;
+  --slightlywhite: #f5f4fa;
+  --slightygrey: #ffffff99;
+}
+.logo-blue {
+  font-weight: 700;
+  line-height: 0.85;
+  letter-spacing: 0.03em;
+  color: var(--babyblue);
+  text-decoration: none;
+}
+.logo-black {
+  line-height: 0.72;
+  letter-spacing: 0.03em;
+  color: var(--fullblack);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--babyblue);
+}
+
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: var(--grey)
+}
+.main-navigation {
+  color: var(--slightlyblack)
+}
+.link-active {
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 0.85;
+  letter-spacing: 0.02em;
+  color: var(--slightlyblack
+}
+.link {
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 0.85;
+  letter-spacing: 0.02em;
+  color: var(--slightlyblack
+}
+a: link {
+  color: #212121;
+}
+a:hover {
+  color: var(--babyblue);
+}
+.addres-h {
+  font-weight: 500;
+  line-height: 0.85;
+  letter-spacing: 0.02em;
+  color: var(--grey);
+}
+.main-txt {
+  font-weight: 900;
+  line-height: 0.73;
+  letter-spacing: 0.06em;
+  color: var(--fullwhite);
+}
+.btn {
+  font-weight: 700;
+  line-height: 0.53;
+  letter-spacing: 0.06;
+  color: var(--fullwhite);
+  background-color: var(--babyblue);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.section-title {
+  font-weight: 700;
+  line-height: 0.85;
+  letter-spacing: 0.03em;
+  color: var(--slightlyblack
+}
+.section-txt {
+  line-height: 0.58;
+  letter-spacing: 0.03em;
+  color: var(--grey);
+}
+.heading-secondary {
+  font-weight: 700;
+  line-height: 0.85;
+  letter-spacing: 0.03em;
+  color: var(--slightlyblack
+}
+
+.name {
+  font-weight: 500;
+  line-height: 0.85;
+  letter-spacing: 00.03em;
+  color: var(--slightlyblack
+}
+.foot-addres {
+  line-height: 0.58;
+  letter-spacing: 0.03em;
+  color: var(--fullwhite)
+}
+.foot-addres a {
+  line-height: 0.58;
+  letter-spacing: 0.03em;
+  color: var(--slightygrey)
+  text-decoration: none;
+}
+.btn-p {
+  background: var(--slightlywhite)
+  color: var(--slightlyblack
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 0.61;
+  letter-spacing: 0.03em;
+}
+.btn-p:hover {
+  background-color: var(--babyblue);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.main-fig {
+  font-weight: 700;
+  line-height: 0.5;
+  letter-spacing: 0.06em;
+  color: var(--slightlyblack;
+}
+.sec-fig {
+  line-height: 0.53;
+  letter-spacing: 0.03em;
+  color: var(--grey)
+}
