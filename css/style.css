@@ -286,11 +286,13 @@ a:hover {
   margin-bottom: 94px;
   list-style: none;
   justify-content: center;
-  
+}
+
 .schedule-element {
   border: var(--schedule-element-border) solid 1px;
   flex-basis: calc((100% - 90px) / 4);
   height: 404px;
+  width: 370px;
   margin: 0;
 }
 
