@@ -4,8 +4,55 @@
   --fullblack: #000000;
   --grey: #757575;
   --slightlyblack: #212121;
-  --slightlywhite: #f5f4fa;
-  --slightygrey: #ffffff99;
+  --slightlywhite: rgb(245, 244, 250);
+  --slightygrey: rgba(255, 255, 255, 0.6);
+  --lightgrey: rgb(229, 229, 229);
+  --verygray: #2f303a;
+  --dirtywhite: #f5f4fa;
+  --schedule-element-border: rgba(238, 238, 238, 1);
+}
+.margin-none {
+  margin: 0;
+}
+.padding-none {
+  padding: 0;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.wrapper {
+  background-color: var(--fullwhite);
+  width: 1600px;
+  margin: 0px auto;
+}
+.header {
+  align-items: center;
+  gap: 93px;
+  flex-direction: row;
+  padding: 25px 0px 24px 0px;
+  display: flex;
+  background-color: var(--fullwhite);
+}
+.border-bottom {
+  border-bottom: 1px solid #ececec;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  line-height: 1.2;
+  margin: 0px;
+}
+.nav-btn {
+  gap: 46px;
+  line-height: 1.2;
+  padding: 0px;
+}
+.contacts-style {
+  gap: 50px;
+  padding: 0px 0px 0px 278px;
+  margin: 0px;
 }
 .logo-blue {
   font-weight: 700;
@@ -13,12 +60,15 @@
   letter-spacing: 0.03em;
   color: var(--babyblue);
   text-decoration: none;
+  font-size: 26px;
 }
+
 .logo-black {
   line-height: 0.72;
   letter-spacing: 0.03em;
   color: var(--fullblack);
   text-decoration: none;
+  font-size: 26px;
 }
 a:hover {
   color: var(--babyblue);
@@ -27,25 +77,26 @@ a:hover {
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: var(--grey);
+  background-color: var(--lightgrey);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  margin: 0;
+  padding: 0;
 }
 .main-navigation {
   color: var(--slightlyblack);
 }
-.link-active {
+
+.link-header {
   text-decoration: none;
   font-weight: 500;
   line-height: 0.85;
   letter-spacing: 0.02em;
   color: var(--slightlyblack);
-}
-.link {
   text-decoration: none;
-  font-weight: 500;
-  line-height: 0.85;
-  letter-spacing: 0.02em;
-  color: var(--slightlyblack);
+  font-size: 14px;
 }
-a: link {
+a:link {
   color: #212121;
 }
 a:hover {
@@ -56,39 +107,112 @@ a:hover {
   line-height: 0.85;
   letter-spacing: 0.02em;
   color: var(--grey);
+  text-decoration: none;
 }
 .main-txt {
   font-weight: 900;
-  line-height: 0.73;
+  line-height: 1.364;
   letter-spacing: 0.06em;
+  font-size: 44px;
+  text-align: center;
+  margin: 0px;
+  width: 696px;
+}
+.top-section {
+  background-color: var(--verygray);
   color: var(--fullwhite);
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 200px 0px;
+  margin: 0px;
 }
 .btn {
+  background-color: var(--babyblue);
+  color: var(--fullwhite);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   font-weight: 700;
   line-height: 0.53;
-  letter-spacing: 0.06;
-  color: var(--fullwhite);
-  background-color: var(--babyblue);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  letter-spacing: 0.06em;
   border-radius: 4px;
+  border-style: none;
   cursor: pointer;
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+}
+
+.about-us {
+  padding: 94px 0 0 0;
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
 }
 .section-title {
   font-weight: 700;
-  line-height: 0.85;
+  line-height: 1.145;
   letter-spacing: 0.03em;
   color: var(--slightlyblack);
+  font-size: 14px;
 }
 .section-txt {
-  line-height: 0.58;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--grey);
+  margin: 0;
+  width: 270px;
+}
+.what-we-do {
+  flex-direction: column;
+  padding: 94px 0;
+  align-items: center;
+}
+
+.what-we-do-list {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  justify-content: center;
+  padding-inline-start: 0;
 }
 .heading-secondary {
   font-weight: 700;
+  font-size: 36px;
   line-height: 0.85;
   letter-spacing: 0.03em;
   color: var(--slightlyblack);
+  text-align: center;
+  margin: 0px 0px 50px 0px;
+}
+.team-background-color {
+  background-color: var(--dirtywhite);
+  padding: 94px;
+}
+.team-list {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  list-style: none;
+  justify-content: center;
+}
+.team-items {
+  align-items: center;
+  flex-direction: column;
+}
+.team-photos {
+  background-color: var(--white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
+  margin: 0;
 }
 
 .our-team-names {
@@ -97,42 +221,91 @@ a:hover {
   letter-spacing: 00.03em;
   color: var(--slightlyblack);
 }
+
+/*footer*/
+.bottom-info {
+  width: 100%;
+  background-color: var(--verygray);
+  padding: 60px 0;
+}
+
 .foot-addres {
-  line-height: 0.58;
-  letter-spacing: 0.03em;
+  margin: 20px 0 0 0;
+  font-style: normal;
   color: var(--fullwhite);
 }
-.foot-addres a {
-  line-height: 0.58;
-  letter-spacing: 0.03em;
+.foot-text {
   color: var(--slightygrey);
-  text-decoration: none;
 }
+
+.bottom-info li {
+  list-style: none;
+  text-decoration: none;
+  padding: 9px 0 9px 0;
+}
+.link-footer {
+  text-decoration: none;
+  color: var(--slightygrey);
+}
+/* porftolio*/
+
+.buttons-list {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 94px 0 0 0;
+  list-style: none;
+}
+
 .btn-p {
   background: var(--slightlywhite);
-  color: var(--slightlyblack);
-  background: #f5f4fa;
-  border-radius: 4px;
-  cursor: pointer;
+  border-width: 0;
+  height: 38px;
+  font-size: 16px;
   font-weight: 500;
-  line-height: 0.61;
-  letter-spacing: 0.03em;
+  line-height: 26px;
+  border-radius: 3px;
+  padding: 6px 22px;
+  font-family: "Roboto";
 }
-.btn-p:hover {
+.btn-p:hover,
+.btn-p:focus {
   background-color: var(--babyblue);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   cursor: pointer;
+  color: var(--fullwhite);
 }
+
+.photos-schedule {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 94px;
+  list-style: none;
+  justify-content: center;
+  
+.schedule-element {
+  border: var(--schedule-element-border) solid 1px;
+  flex-basis: calc((100% - 90px) / 4);
+  height: 404px;
+  margin: 0;
+}
+
 .main-fig {
   font-weight: 700;
-  line-height: 0.5;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--slightlyblack);
+  font-size: 18px;
+  margin: 20px 0px 4px 24px;
 }
 .sec-fig {
-  line-height: 0.53;
+  line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--grey);
+  margin: 0px 0px 0px 24px;
+  font-size: 16px;
 }
