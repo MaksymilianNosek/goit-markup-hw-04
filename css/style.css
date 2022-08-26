@@ -23,7 +23,7 @@
 }
 .wrapper {
   background-color: var(--fullwhite);
-  width: 1600px;
+
   margin: 0px auto;
 }
 .header {
@@ -286,14 +286,19 @@ a:hover {
   margin-bottom: 94px;
   list-style: none;
   justify-content: center;
+  
+  
 }
 
 .schedule-element {
-  border: var(--schedule-element-border) solid 1px;
+  border-bottom: var(--schedule-element-border) solid 1px;
   flex-basis: calc((100% - 90px) / 4);
   height: 404px;
   width: 370px;
   margin: 0;
+  justify-content: center;
+  display: flex;
+
 }
 
 .main-fig {
