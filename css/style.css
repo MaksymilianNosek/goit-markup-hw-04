@@ -5,7 +5,7 @@
   --grey: #757575;
   --slightlyblack: #212121;
   --slightlywhite: rgb(245, 244, 250);
-  --slightygrey: rgba(255, 255, 255, 0.6);
+  --slightygrey: rgba(255, 255, 255, 60%);
   --lightgrey: rgb(229, 229, 229);
   --verygray: #2f303a;
   --dirtywhite: #f5f4fa;
@@ -76,7 +76,7 @@ a:hover {
 
 body {
   font-family: "Roboto", "Raleway", sans-serif;
-  color: var(--grey);
+  text-decoration: none;
   background-color: var(--lightgrey);
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -96,9 +96,8 @@ body {
   text-decoration: none;
   font-size: 14px;
 }
-a:link {
-  color: #212121;
-}
+
+
 a:hover {
   color: var(--babyblue);
 }
@@ -220,8 +219,11 @@ a:hover {
   line-height: 0.85;
   letter-spacing: 00.03em;
   color: var(--slightlyblack);
+  
 }
-
+.specialization {
+  color:var(--grey)
+}
 /*footer*/
 .bottom-info {
   width: 100%;
@@ -229,23 +231,36 @@ a:hover {
   padding: 60px 0;
 }
 
+.bottom-container {
+  flex-direction: column;
+  margin-left: 215px;
+
+}
+
 .foot-addres {
   margin: 20px 0 0 0;
   font-style: normal;
-  color: var(--fullwhite);
+  color:var(--fullwhite)
 }
 .foot-text {
-  color: var(--slightygrey);
+  padding:0;
+  
 }
 
 .bottom-info li {
   list-style: none;
   text-decoration: none;
   padding: 9px 0 9px 0;
+  
+  
+  
 }
 .link-footer {
   text-decoration: none;
-  color: var(--slightygrey);
+  color:var(--slightygrey);
+  padding: 9px 0 9px 0;
+  
+  
 }
 /* porftolio*/
 
