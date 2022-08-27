@@ -264,6 +264,10 @@ a:hover {
 }
 /* porftolio*/
 
+.color-blue {
+  color:var(--babyblue)
+}
+
 .buttons-list {
   display: flex;
   justify-content: center;
@@ -331,3 +335,4 @@ a:hover {
   margin: 0px 0px 0px 24px;
   font-size: 16px;
 }
+.
