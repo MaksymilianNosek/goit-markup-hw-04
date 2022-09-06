@@ -5,7 +5,7 @@
   --grey: #757575;
   --slightlyblack: #212121;
   --slightlywhite: rgb(245, 244, 250);
-  --slightygrey: rgba(255, 255, 255, 60%);
+  --slightygrey: #ffffff99;
   --lightgrey: rgb(229, 229, 229);
   --verygray: #2f303a;
   --dirtywhite: #f5f4fa;
@@ -77,6 +77,13 @@
   color: var(--fullwhite);
   text-decoration: none;
   font-size: 26px;
+}
+.contact-icon:hover {
+  fill: var(--babyblue);
+}
+
+.icon-margin {
+  margin-right: 10px;
 }
 a:hover {
   color: var(--babyblue);
