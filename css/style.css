@@ -112,6 +112,41 @@ body {
   font-size: 14px;
 }
 
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: var(--verygray);
+  fill: var(--fullblack);
+}
+
+.team-social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+  list-style: none;
+}
+
+.team-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--team-social);
+  background-color: var(--fullwhite);
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: var(--babyblue);
+  fill: var(--fullwhite);
+}
+
 .about-us-icon {
   background-color: var(--dirtywhite);
   height: 120px;
