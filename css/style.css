@@ -78,10 +78,10 @@
   text-decoration: none;
   font-size: 26px;
 }
-.contact-icon:hover {
-  fill: var(--babyblue);
-}
 
+.link:hover .icon {
+  fill: #2196f3;
+}
 .icon-margin {
   margin-right: 10px;
 }
@@ -112,6 +112,16 @@ body {
   font-size: 14px;
 }
 
+.about-us-icon {
+  background-color: var(--dirtywhite);
+  height: 120px;
+  width: 270px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 a:hover {
   color: var(--babyblue);
 }
