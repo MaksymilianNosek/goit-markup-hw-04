@@ -305,6 +305,14 @@ a:hover {
 .section-clients {
   background-color: var(--fullwhite);
 }
+.clients-h {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--fullblack);
+  margin-bottom: 50px;
+}
 
 .clients-list {
   display: flex;
