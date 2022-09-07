@@ -119,6 +119,8 @@ body {
   stroke-width: 0;
   stroke: var(--verygray);
   fill: var(--fullblack);
+  
+  
 }
 
 .team-social-list {
@@ -128,6 +130,7 @@ body {
   gap: 10px;
   margin-bottom: 30px;
   list-style: none;
+  
 }
 
 .team-social-link {
@@ -137,8 +140,9 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  fill: var(--team-social);
+  fill: #afb1b8
   background-color: var(--fullwhite);
+  
 }
 
 .team-social-link:hover,
